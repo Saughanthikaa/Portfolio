@@ -1,0 +1,17 @@
+.footer {
+    background-color: #343a40; /* Dark background */
+    color: white;
+    width: 100%;
+    /* position: fixed; */
+    z-index: 1000; /* Ensures the navbar is above other elements */
+    padding: 1rem;
+    position: relative;
+    left: -10px;
+    bottom: -9px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #343a40; /* Dark background */
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures the navbar is above other elements */
+    padding: 1rem;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  

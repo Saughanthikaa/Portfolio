@@ -1,0 +1,108 @@
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #FFF8E7; /* Optional: A light background color for the about section */
+  border: 1px solid #FFF8E7;
+  margin: 10px;
+  border-radius: 10px;
+  min-height: 430px;
+}
+
+
+/* Styles for larger screens */
+.about-content {
+  flex: 1;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.about-content img {
+  width: 40px; 
+  height: 40px; 
+  margin-right: 10px; 
+}
+
+.about-image img {
+  width: 250px; 
+  height: 250px; 
+  border-radius: 10px; 
+}
+.about-image {
+  width: 30%;
+}
+
+/* Media query for tablets (portrait and landscape) */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content {
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+
+  .about-image {
+    width: 100%;
+  }
+
+  .about-content img {
+    width: 30px; /* Adjust size for tablet view */
+    height: 30px;
+  }
+}
+
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+  .about-container {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .about-content {
+    order: 2; /* Content should appear second */
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+
+  .about-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-content div {
+    font-size: 1rem;
+  }
+
+  .about-image {
+    order: 1; /* Image should appear first */
+    width: 100%;
+  }
+
+  .about-image img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .about-content img {
+    width: 30px; /* Adjust size for mobile view */
+    height: 30px;
+  }
+}
+
+/* Media query for larger screens (like laptops) */
+@media (min-width: 769px) {
+  .about-content h2 {
+    font-size: 2rem; /* Adjust this value as needed */
+  }
+
+  .about-content div {
+    font-size: 1.2rem; /* Adjust this value as needed */
+  }
+}

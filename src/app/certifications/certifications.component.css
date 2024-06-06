@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.content {
+    background-color: #FFF8E7;
+    width: 25%;
+    border: 1px solid #FFF8E7;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    margin: 10px;
+    /* height: 100px; */
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .content {
+        width: 40%;
+        padding: 20px;
+    }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+    .content {
+        width: 80%;
+    }
+}

@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 5px;
+    justify-content: space-between; /* Align skills evenly */
+}
+
+.skill {
+    width: calc(12.5% - 10px); /* Four skills per row for desktop */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skill img {
+    width: 50px; /* Adjust icon size as needed */
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+    .skill {
+        width: calc(12.5% - 10px); /* Two skills per row for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .skill {
+        width: calc(25% - 10px); /* Single skill per row for mobile */
+    }
+}

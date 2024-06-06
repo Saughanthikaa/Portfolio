@@ -1,0 +1,19 @@
+<div style="min-height: 430px;display: flex;flex-direction: column;">
+    <div style="display:flex;justify-content: center; margin-top: 36px;margin-bottom: 26px;">
+      <h2>Work Experience</h2>
+    </div>
+  
+    <div class="mainDiv">
+      <div class="timeline">
+        <div *ngFor='let entry of timeLine'>
+          <div class="container right">
+            <div class="content">
+              <h2>{{entry.year}}</h2>
+              <p>{{entry.detail}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
