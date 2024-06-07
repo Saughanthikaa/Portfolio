@@ -1,5 +1,5 @@
 <div style="min-height: 430px;display: flex;flex-direction: column;">
-    <div style="display:flex;justify-content: center; margin-top: 36px;margin-bottom: 26px;">
+    <div style="display:flex;justify-content: center; margin-top: 56px;">
       <h2>Work Experience</h2>
     </div>
   
@@ -8,8 +8,17 @@
         <div *ngFor='let entry of timeLine'>
           <div class="container right">
             <div class="content">
-              <h2>{{entry.year}}</h2>
-              <p>{{entry.detail}}</p>
+              <div>
+                <div style="font-size: larger;"><b>{{entry.year}}</b> &nbsp;, <span style="font-size: medium;">{{entry.loc}}</span></div>
+                <div>{{entry.time}}</div>
+                <!-- <div><p>{{entry.detail}}</p></div> -->
+                <div style="margin-top: 2px;">{{entry.detail}}</div>
+                 <div style="margin-top: 10px;"><I>{{entry.tools}}</I></div>
+        
+              <!-- <h2>{{entry.year}}</h2>
+              <h4>{{entry.time}}</h4>
+              <p>{{entry.loc}}</p>
+              <p>{{entry.detail}}</p> -->
             </div>
           </div>
         </div>

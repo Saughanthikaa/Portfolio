@@ -15,7 +15,13 @@
     align-items: center;
     padding: 2vw;
   }
-  
+  .btn{
+    background: #606467;
+    color: white;
+    border: 1px solid #606467;
+    border-radius: 10px;
+    padding: 2px 14px 3px 14px;
+}
   /* Media query for tablets and mobile */
   @media (max-width: 768px) {
     .container {
@@ -37,6 +43,10 @@
   @media (max-width: 480px) {
     .content {
       width: 80%;
+      text-align: center;
+    }
+    .content h5{
+      white-space: normal;
     }
   }
   

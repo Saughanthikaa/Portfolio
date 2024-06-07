@@ -35,14 +35,10 @@
 @media (max-width: 480px) {
   .content {
       width: 80%;
+      text-align: center;
   }
 
-  .content b span {
-      display: block;
-  }
-
-  .content b .break {
-      display: block;
-      margin-top: 4px; /* Optional: Adjust spacing between lines */
+  .content b{
+    white-space: normal;
   }
 }

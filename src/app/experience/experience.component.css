@@ -11,7 +11,9 @@
   min-height: 430px;
   box-sizing: border-box;
 }
-
+.content h2, .content h4, .content p {
+  margin-bottom: 5px;  /* Adjust the value (in pixels) for desired spacing */
+}
 .timeline {
   position: relative;
   width: 100%;
@@ -79,7 +81,7 @@
 
 /* The actual content */
 .content {
-  padding: 20px 30px;
+  padding: 20px 11px;
   background-color: white;
   position: relative;
   border-radius: 6px;
@@ -129,9 +131,9 @@
     margin-bottom: 4px;
   }
 
-  .container::before {
-    left: 35px; /* Adjust the arrow position */
-  }
+  /* .container::before {
+    left: 35px;
+  } */
 
   .container::after {
 

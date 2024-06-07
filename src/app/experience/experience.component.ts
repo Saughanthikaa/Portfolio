@@ -12,9 +12,6 @@ export class ExperienceComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  timeLine = [{ year: '2015', detail: 'Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.' },
-    { year: '2016', detail: 'Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.'},
-    { year: '2017', detail: 'Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.'},
-    
+  timeLine = [{ year: 'Smartail Pvt Ltd', time:'Jun 2023 - Nov 2023' ,loc:'Chennai', detail: 'Developed a status tracker website to monitor the lifecycle of question papers, including receipt, correction, and dispatch to schools.Implemented features to assign deadlines and designate personnel for correcting and reviewing answer papers.Generated comprehensive reports on a daily and monthly basis to provide insights into workflow and performance metrics.',tools:'Tools Used : Angular , Java(Rest APIs) , MongoDB' },
     ]
 }
