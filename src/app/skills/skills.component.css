@@ -28,4 +28,7 @@
     .skill {
         width: calc(25% - 10px); /* Single skill per row for mobile */
     }
+    .skill p{
+        font-size: 12px;
+    }
 }
